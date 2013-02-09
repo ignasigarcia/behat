@@ -1,0 +1,12 @@
+default:
+  context:
+    class:  'extendedContext'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://en.wikipedia.org/'
+      goutte:    ~
+      selenium2: ~
+
+extendedContext:
+  contect:
+    class:  'ExtendedContext'
